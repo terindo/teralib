@@ -35,11 +35,53 @@ def execute_main(pkg_name, versions, short_desc, homepage):
 
 
 if __name__ == "__main__":
-    
+ 
     # nfc
     pkg_name = "teralib-nfc"
     versions = ["0.0.1"]
-    short_desc = 'terindo nfc libraries'
+    short_desc = 'terindo nfc libraries, nfc, mifare, contactless, emoney, flazz, aino, sti, payment, and more'
     homepage = 'https://github.com/terindo/teralib-nfc'
+    execute_main(pkg_name, versions, short_desc, homepage)
+    
+    # database
+    pkg_name = "teralib-db"
+    versions = ["1.0.0"]
+    short_desc = 'database libraries'
+    homepage = 'https://github.com/terindo/teralib-db'
+    execute_main(pkg_name, versions, short_desc, homepage)
+    
+    # printer
+    pkg_name = "teralib-printer"
+    versions = ["1.0.0"]
+    short_desc = 'epson, escpos, thermal, and more'
+    homepage = 'https://github.com/terindo/teralib-printer'
+    execute_main(pkg_name, versions, short_desc, homepage)
+    
+    # camera
+    pkg_name = "teralib-camera"
+    versions = ["1.0.0"]
+    short_desc = 'camera modules'
+    homepage = 'https://github.com/terindo/teralib-camera'
+    execute_main(pkg_name, versions, short_desc, homepage)
+    
+    # gpio
+    pkg_name = "teralib-serial"
+    versions = ["1.0.0"]
+    short_desc = 'serial port modules'
+    homepage = 'https://github.com/terindo/teralib-serial'
+    execute_main(pkg_name, versions, short_desc, homepage)
+    
+    # gpio
+    pkg_name = "teralib-gpio"
+    versions = ["1.0.0"]
+    short_desc = 'gpio'
+    homepage = 'https://github.com/terindo/teralib-gpio'
+    execute_main(pkg_name, versions, short_desc, homepage)
+    
+    # utilty
+    pkg_name = "teralib-utils"
+    versions = ["1.0.0"]
+    short_desc = 'global utilities'
+    homepage = 'https://github.com/terindo/teralib-utils'
     execute_main(pkg_name, versions, short_desc, homepage)
     
